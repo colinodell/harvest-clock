@@ -1,0 +1,31 @@
+{
+  "name": "harvest-clock",
+  "version": "0.1.0",
+  "description": "Harvest clock device built on the Raspberry Pi Zero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinodell/harvest-clock.git"
+  },
+  "keywords": [
+    "harvest"
+  ],
+  "author": "Colin O'Dell <colinodell@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colinodell/harvest-clock/issues"
+  },
+  "homepage": "https://github.com/colinodell/harvest-clock#readme",
+  "dependencies": {
+    "adafruit-i2c-lcd": "^1.0.2",
+    "dateformat": "^1.0.12",
+    "dotenv": "^2.0.0",
+    "harvest": "^0.1.4",
+    "lodash": "^4.11.1",
+    "node-dht-sensor": "0.0.11",
+    "rpio": "^0.9.10"
+  }
+}
